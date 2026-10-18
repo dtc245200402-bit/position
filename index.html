@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ Giản Lược</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header cố định -->
+    <header class="main-header">
+        <h1>My Website</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bố cục 3 cột -->
+    <div class="page-container">
+
+        <!-- Sidebar trái -->
+        <aside class="sidebar left-sidebar">
+            <h3>Sidebar Trái</h3>
+            <ul>
+                <li><a href="#home">Mục 1</a></li>
+                <li><a href="#about">Mục 2</a></li>
+                <li><a href="#services">Mục 3</a></li>
+                <li><a href="#contact">Mục 4</a></li>
+            </ul>
+        </aside>
+
+        <!-- Nội dung chính -->
+        <main class="main-content" id="home">
+            <h2>Nội dung chính của trang</h2>
+
+            <p>
+                Đây là khu vực chứa nội dung quan trọng nhất của trang web.
+                Chúng ta có thể đặt bài viết, sản phẩm hoặc thông tin chi tiết
+                tại đây.
+            </p>
+
+            <section id="about">
+                <h2>Giới thiệu</h2>
+                <p>
+                    Website này được xây dựng để thực hành HTML và CSS,
+                    đặc biệt là thuộc tính position: fixed và cách tạo
+                    bố cục bằng Flexbox.
+                </p>
+            </section>
+
+            <section id="services">
+                <h2>Dịch vụ</h2>
+                <p>
+                    Chúng tôi cung cấp những nội dung mẫu để minh họa
+                    cách trình bày thông tin trong khu vực chính.
+                </p>
+            </section>
+
+            <h2>Bài viết mới nhất</h2>
+
+            <article class="post-card">
+                <h3>Bài viết số 1</h3>
+                <p>
+                    Nội dung bài viết mẫu. Khi người dùng cuộn trang,
+                    header vẫn luôn hiển thị phía trên màn hình.
+                </p>
+            </article>
+
+            <article class="post-card">
+                <h3>Bài viết số 2</h3>
+                <p>
+                    Flexbox giúp bố trí sidebar trái, nội dung chính
+                    và sidebar phải thành ba cột linh hoạt.
+                </p>
+            </article>
+
+            <article class="post-card">
+                <h3>Bài viết số 3</h3>
+                <p>
+                    Thuộc tính z-index giúp header nằm phía trên
+                    các phần tử nội dung khi người dùng cuộn trang.
+                </p>
+            </article>
+
+            <article class="post-card">
+                <h3>Bài viết số 4</h3>
+                <p>
+                    Đây là nội dung bổ sung để tạo chiều dài trang,
+                    giúp kiểm tra hiệu ứng cố định của header.
+                </p>
+            </article>
+
+            <article class="post-card">
+                <h3>Bài viết số 5</h3>
+                <p>
+                    Bạn có thể thay thế phần văn bản mẫu bằng nội dung
+                    của riêng mình trong những bài thực hành tiếp theo.
+                </p>
+            </article>
+        </main>
+
+        <!-- Sidebar phải -->
+        <aside class="sidebar right-sidebar">
+            <h3>Sidebar Phải</h3>
+            <p>
+                Đây là khu vực có thể chứa bài viết liên quan,
+                thông tin nổi bật hoặc các tiện ích khác.
+            </p>
+
+            <div class="widget">
+                <h4>Thông báo</h4>
+                <p>Chào mừng bạn đến với website!</p>
+            </div>
+
+            <div class="widget">
+                <h4>Liên kết</h4>
+                <p><a href="#about">Tìm hiểu thêm</a></p>
+                <p><a href="#contact">Thông tin liên hệ</a></p>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer id="contact" class="page-footer">
+        <p>© 2026 My Website | Thực hành HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
